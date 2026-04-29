@@ -95,12 +95,4 @@ Done! 🎉
 
 Made with ❤️ by **Youssef Ashraf**
 Frontend practice project for improving JavaScript & UI skills 🚀
-
----
-
-If you want, I can also:
-✅ Make it more “GitHub viral style”
-✅ Add badges (like stars, license, tech stack)
-✅ Or write a super clean professional portfolio version
-
-Just tell me 👍
+ 
