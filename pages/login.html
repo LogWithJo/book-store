@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <title>Login - BookStore</title>
+        <!-- webfont -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Cairo:wght@200..1000&family=Momo+Signature&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Stack+Sans+Text:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+        <div id="container" class="fixed w-full h-full top-0 left-0 flex justify-center items-center hidden">
+            <div id="layout" class="loyout bg-gray-200/50 absolute top-0 left-0 w-full h-full z-[-1]"></div>
+            <div
+            class="p-6 rounded-2xl bg-white flex flex-col gap-3"
+            >
+        <div class="flex gap-2 font-semibold capitalize">
+            <div>continue as</div>
+            <div id="username"></div>
+        </div>
+        <div class="flex justify-center items-center capitalize font-semibold">
+            <button id="continueBtn" class="bg-blue-400 text-white capitalize py-2 w-full rounded-lg cursor-pointer" type="button">continue</button>
+        </div>
+        </div>
+        </div>
+        <div class="bg-white w-full max-w-md p-8 rounded-2xl shadow-lg">
+        <h1 class="text-3xl font-bold text-center text-blue-600 mb-6">
+            📚 BookStore
+        </h1>
+
+        <form class="space-y-4">
+            <input
+            type="text"
+            placeholder="Name"
+            class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            id="nameInput"
+            />
+
+            <p
+            id="nameAlert"
+            class="nameAlert capitalize text-red-600 font-semibold"
+            >name is wrong</p> 
+
+            <input
+            type="email"
+            placeholder="Email"
+            class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            id="emailInput"
+            />
+
+            <p
+            id="emailAlert"
+            class="emailAlert capitalize text-red-600 font-semibold"
+            >email is wrong</p>
+
+            <input
+            type="password"
+            placeholder="Password"
+            class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            id="passwordInput"
+            />
+
+            <p
+            id="passwordAlert"
+            class="passwordAlert capitalize text-red-600 font-semibold"
+            >password is wrong</p>
+
+            <button
+            class="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 cursor-pointer"
+            type="button"
+            id="loginBtn"
+            disabled
+            >
+            login
+            </button>
+        </form>
+        </div>
+        <script src="../scripts/login.js"></script>
+    </body>
+</html>

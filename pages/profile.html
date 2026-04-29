@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <title>Profile</title>
+        <link rel="stylesheet" href="../styles/style.css">
+        <!-- webfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Cairo:wght@200..1000&family=Momo+Signature&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Stack+Sans+Text:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    </head>
+
+    <body class="bg-gray-100">
+        <div class="max-w-3xl mx-auto p-6">
+        <div class="bg-white p-6 rounded-xl shadow text-center">
+            <div class="w-24 h-24 bg-gray-300 rounded-full mx-auto"><img src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001882.png" alt=""></div>
+
+            <h2 class="text-xl font-bold mt-4" id="username"></h2>
+            <p class="text-gray-500" id="email"></p>
+
+            <div class="gap-4 mt-6">
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <h3 class="font-bold">Books Added</h3>
+                <p id="booksAdded"></p>
+            </div>
+
+            <button class="mt-6 bg-red-500 text-white px-4 py-2 rounded-lg cursor-pointer" type="button" id="logout">
+            Logout
+            </button>
+        </div>
+        </div>
+        </div>
+        <script src="../scripts/profile.js"></script>
+    </body>
+</html>
