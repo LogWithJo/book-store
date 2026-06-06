@@ -2,8 +2,6 @@
 
 A simple browser-based online food store page built with vanilla JavaScript.
 
-![App screenshot](./preview.png)
-
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-4-blue)
@@ -13,6 +11,7 @@ A simple browser-based online food store page built with vanilla JavaScript.
 
 This was one of my mini projects in my JavaScript learning roadmap.
 
+I can say this 
 You may notice that the UI was designed with AI assistance. My original UI files were accidentally deleted, and at that time I still didn't know much about project management with Git or why version control is so important. Instead of rebuilding everything from scratch, I decided to use AI to save time and continue learning.
 
 I know this project is very simple and doesn't fully represent what a complete project should look like. The code organization isn't great, and the logic... well, let's just say there isn't much logic here 🤣
